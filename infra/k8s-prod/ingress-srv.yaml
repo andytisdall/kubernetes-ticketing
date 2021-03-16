@@ -7,7 +7,7 @@ metadata:
     nginx.ingress.kubernetes.io/use-regex: 'true'
 spec:
   rules:
-    - host: www.andys-microservices-app.space
+    - host: www.andys-microservice-app.space
       http:
         paths:
           - path: /api/payments/?(.*)
