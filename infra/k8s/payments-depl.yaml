@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: us.gcr.io/black-nucleus-302903/payments
+          image: andytisdall/payments
           env:
             - name: NATS_CLIENT_ID
               valueFrom:

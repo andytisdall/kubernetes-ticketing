@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: us.gcr.io/black-nucleus-302903/client
+          image: andytisdall/client
 ---
 apiVersion: v1
 kind: Service
