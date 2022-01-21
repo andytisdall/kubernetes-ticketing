@@ -1,0 +1,1 @@
+A sample ticketing site using microservices. Provides a kubernetes cluster to deploy and manage docker containers with payment, auth, and order services. Uses NATS Streaming Server as an event bus. Simple front end made with React
